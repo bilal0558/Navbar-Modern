@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: white;
+}
+
+body{
+    background: black;
+    background-size: cover;
+}
+
+nav{
+    width: 100vw;
+    color: white;
+    padding: 40px 15vw 0 15vw;
+    z-index: 10;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+nav li {
+    float: right;
+}
+  
+nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: all 100ms ease-in;
+}
+  
+nav li a:hover, .dropdown:hover .dropbtn {
+    color: rebeccapurple;
+}
+
+.active{
+    color: rebeccapurple;
+}
+  
+.logo{
+    float: left;
+    padding: 0px;
+}
+
+.logo a{
+    float: left;
+    padding: 0px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: all 100ms ease-in;
+    border-radius: 8px;
+}
+  
+.dropdown-content a:hover {
+    background: #f9f9f9;
+    color: rebeccapurple;
+    font-weight: 600;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container{
+    padding: 20vh 15vw 0 15vw;
+}
+
+.container h1{
+    font-size: 4em;
+}
+
+.container p{
+    color: rgb(200, 200, 200);
+}
+
+#purple{
+    color: rebeccapurple;
+}
