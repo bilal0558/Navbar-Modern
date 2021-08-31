@@ -12,6 +12,10 @@ body{
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100vw;
     color: white;
     padding: 40px 15vw 0 15vw;
@@ -19,15 +23,10 @@ nav{
 }
 
 nav ul{
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
-  
-nav li {
-    float: right;
-}
+
   
 nav li a, .dropbtn {
     display: inline-block;
@@ -46,17 +45,6 @@ nav li a:hover, .dropdown:hover .dropbtn {
     color: rebeccapurple;
 }
   
-.logo{
-    float: left;
-    padding: 0px;
-}
-
-.logo a{
-    float: left;
-    padding: 0px;
-}
-
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -83,7 +71,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
     font-weight: 600;
 }
   
-.dropdown:hover .dropdown-content {
+.drop-down:hover .dropdown-content {
     display: block;
 }
 
