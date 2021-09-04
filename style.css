@@ -44,7 +44,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 .active{
     color: rebeccapurple;
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
